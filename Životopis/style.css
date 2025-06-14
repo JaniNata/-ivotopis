@@ -1,0 +1,41 @@
+:root {
+  --subheader-color: #1e8572; /* 4. úkol*/
+  --header-color: #11231e; /* 4. úkol*/
+  --conteiner-shadow: #d1f5eb; /* 4. úkol*/ /* 4. úkol*/
+}
+body {
+  background: linear-gradient(#11231e, #1e8572, #d1f5eb);
+}
+#container {
+  box-shadow: gray;
+  box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  height: calc(300vh - 20px);
+  background-color: rgb(240, 236, 236);
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+h2,
+h3 {
+  color: #1d3b32;
+}
+h2 {
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  width: 250px; /* nebo jiná šířka podle potřeby */
+}
+
+.kontakt {
+  text-align: center;
+}
